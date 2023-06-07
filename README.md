@@ -1,8 +1,8 @@
 # 4883-SoftwareTools-Lockhart
 #Timothy Lockhart
 #tlockhartjr@outlook.com
-![image](https://github.com/Goldentimsteer/4883-SoftwareTools-Lockhart/assets/70359061/ea192a67-ec8a-4389-835c-f9e4c6e77e5e)
 
+![image](https://github.com/Goldentimsteer/4883-SoftwareTools-Lockhart/assets/70359061/ea192a67-ec8a-4389-835c-f9e4c6e77e5e)
 
 avatar
 
