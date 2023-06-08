@@ -1,0 +1,21 @@
+digraph G {
+ node [shape=record]
+    
+    A [label = "<left>| <data> 8 | <right>" shape = "record"];
+    B [label = "<left>| <data> 4 | <right>" shape = "record"];
+    C [label = "<left>| <data> 10 |<right>" shape = "record"];
+    D [label = "<left>| <data> 3 | <right>" shape = "record"];
+    E [label = "<left>| <data> 6 | <right>" shape = "record"];
+    F [label = "<left>| <data> 9 | <right>" shape = "record"];
+    G [label = "<left>| <data> 11 | <right>" shape = "record"];
+    
+    A:left:c->B:data [arrowtail=dot, dir=both, tailclip=false];
+    A:right:c->C:data [arrowtail=dot, dir=both, tailclip=false];
+    
+    B:left:c->D:data [arrowtail=dot, dir=both, tailclip=false];
+    B:right:c->E:data [arrowtail=dot, dir=both, tailclip=false];
+    
+    C:left:c->F:data [arrowtail=dot, dir=both, tailclip=false];
+    C:right:c->G:data [arrowtail=dot, dir=both, tailclip=false];
+}
+}
