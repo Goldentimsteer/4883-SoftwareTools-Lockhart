@@ -1,21 +1,14 @@
+
 import PySimpleGUI as sg  
 import json
+import pandas 
 
-
-
-
+#set dropdown menu items
 m = ["1","2","3","4","5","6","7","8","9","10","11","12"]
 d = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"] 
 y = ["2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"]
 
 dwm = ["daily","weekly","monthly"]
-
-c = [""]
-
-
-
-
-
 
 
 def currentDate(returnType='tuple'):
@@ -53,13 +46,18 @@ def buildWeatherURL(month=None, day=None, year=None, airport=None, filter=None):
         day = current_day
     if not year:
         year = current_year
+
+    #use panda to read in airport codes 
+    c = pandas.read_json('airports-better.json')
+    c = c.sort_values(by=["icao"])
+    c1 = c['icao'].tolist()
     
     # Create the gui's layout using text boxes that allow for user input without checking for valid input
     layout = [
         [sg.Text('Month')],[sg.DD(m,size = (10,8) )],
         [sg.Text('Day')],[sg.DD(d,size= (10,8))],
         [sg.Text('Year')],[sg.DD(y,size = (10,8))],
-        [sg.Text('Code')],[sg.DD(c,size = (10,8))],
+        [sg.Text('Code')],[sg.DD(c1,size = (10,8))],
         [sg.Text('daily / weekly / monthly')],[sg.DD(dwm,size = (10,8))],
         [sg.Submit(), sg.Cancel()]
     ]      
