@@ -25,6 +25,4 @@ to make it exactly what you asked all you have to do is type
 ```
 convert (filename) -resize AxB\! (new filename)
 ```
-
-    Percentage resize -- convert NAME -resize 50% NEW-NAME
-
+This is just the begining of imagemagick for more info go to https://imagemagick.org/
