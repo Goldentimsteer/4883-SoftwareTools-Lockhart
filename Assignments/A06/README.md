@@ -21,7 +21,7 @@ for making the image having a diffrent size you would use the same convert but w
 ```
 now if you look at the image info the image did not actually make it the exact size you asked it.
 it kept the same ratio but just increased it to the lenght yo set
-to make it exactly what you asked all you have to do is type \! 
+to make it exactly what you asked all you have to do is type
 ```
 convert (filename) -resize AxB\! (new filename)
 ```
