@@ -25,4 +25,14 @@ to make it exactly what you asked all you have to do is type
 ```
 convert (filename) -resize AxB\! (new filename)
 ```
+
+for changing the contrast of the image you would do the same thing of using convert but you will put -paint (number)
+```
+convert  thumbnail_IMG_8355.jpg -paint 20  (filename)
+```
+for making a image swirled instead of paint you use swirl
+
+```
+convert  thumbnail_IMG_8355.jpg -swirl 180  (filename)
+```
 This is just the begining of imagemagick for more info go to https://imagemagick.org/
