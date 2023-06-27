@@ -14,7 +14,10 @@ so transposing the collums and rows was nessesarywith daily, the info came out n
 
 |   #   | File        |Discription             | 
 | :---: | ----------- | ---------------------- |
-|   1   |[get_wether.py](get_weather.py) | |
-|  2    | [tables.py](table.py)||
-| 3|[airport-better.json](airport-better.json)||
-|4|
+|   1   |[get_wether.py](get_weather.py) | scrapes the web for data|
+|  2    | [tables.py](table.py)| ouputs data on a clean table|
+| 3| [Gui.py](Gui.py)|makes gui for input|
+| 4|[airport-better.json](airport-better.json)|data for airport code|
+|5| [screenshot_1](Screenshot from 2023-06-20 19-06-55.png)|Image 1|
+|6| [screenshot_2]()|Image 2|
+|7| [screemshot_3]()|Image 3|
