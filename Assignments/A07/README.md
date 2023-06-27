@@ -10,3 +10,11 @@ scraping the data from weekly and mouhtly where the same, but where very dificul
 The reason is becasue the info for june 1, 2020 would read something like this for
 june 1,2,3,4,5,6,7,8,9,10...... Max,avg,min 70,68,65,90,85,70
 so transposing the collums and rows was nessesarywith daily, the info came out nice and clean where all the info was on one line for a single day
+
+
+|   #   | File        |Discription             | 
+| :---: | ----------- | ---------------------- |
+|   1   |[get_wether.py](get_weather.py) | |
+|  2    | [tables.py](table.py)||
+| 3|[airport-better.json](airport-better.json)||
+|4|
