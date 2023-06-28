@@ -1,5 +1,9 @@
 A06 - Imagemagick
-Imagemagick is a tool that is able to manipulate images
+
+Imagemagick is a tool that is able to manipulate images in a termninal. By typing the comand you want and the  image 
+filename you can manipulate the file type and the color of the images
+
+
 One of the things you can do with ImageMagick is get information about an image
 ```
  identify (filename)
