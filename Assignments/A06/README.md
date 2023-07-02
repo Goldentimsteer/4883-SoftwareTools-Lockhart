@@ -40,4 +40,20 @@ for making a image swirled instead of paint you use swirl
 ```
 convert  thumbnail_IMG_8355.jpg -swirl 180  (filename)
 ```
+We all love memes and some of us will create some. with image magick you can add text to images 
+```
+montage -label "Timothy Lockhart"  1.jpeg \ -geometry +0+0 -background white Timothylockhart.jpeg
+```
+bwtween the "" you will set what ever you want as your text,the background is set to white but can be changeded as well.
+
+now i bet some of you are woundering how to make a gif. well Imagemagick can do that as well. now i will just make a basick animation for this example
+
+```
+convert -delay 50 loop 0 *.png test.gif
+```
+This will get any png and put it into a loop 
+
+
+
+
 This is just the begining of imagemagick for more info go to https://imagemagick.org/
