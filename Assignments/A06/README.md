@@ -53,6 +53,10 @@ convert -delay 50 loop 0 *.png test.gif
 ```
 This will get any png and put it into a loop 
 
+Now this is something that can be used for teachers if they have students make a picture. by comparingimages you are able to see what images are simular
+```
+compare -metric PSNR 3.jpeg 8.jpeg 28.31
+```
 
 
 
